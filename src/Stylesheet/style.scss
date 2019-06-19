@@ -1,0 +1,36 @@
+@import '../components/Header/Header';
+@import '../components/Banner/banner';
+@import '../components/MainComponent/MainComponent';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    max-width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+}
+
+a, Link {
+    text-decoration: none;
+    color: #767676;
+    font-weight: bold;
+    // font-size: 12px;
+    &:hover {
+        color: #fff;
+        transition: ease 1s;
+        text-decoration: none;
+    }
+}  
+

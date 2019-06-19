@@ -1,0 +1,137 @@
+.header_links {
+  background-color: #1A0F37;
+  color: #767676;
+  padding: 14px 0px;
+  font-size: 12px; }
+  .header_links .social_icons {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 7%;
+    position: absolute;
+    right: 120px;
+    top: 2px; }
+  .header_links .signin {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+    top: 2px; }
+    .header_links .signin .signin_span {
+      margin-left: 5px; }
+
+.header_items {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 45%; }
+
+.navbar_icons {
+  width: 121px;
+  text-align: center; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-weight: initial;
+  padding: 27px 10px; }
+
+.navbar {
+  padding: 0px 0px; }
+
+.navbar-light .navbar-nav .highlight .nav-link {
+  color: white;
+  background-color: #1A0F37; }
+
+.banner_container {
+  display: flex;
+  position: relative; }
+
+.banner_image {
+  width: 455.2px;
+  height: 480px;
+  background-size: 100% auto; }
+
+.img_gradient {
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0), red);
+  background-size: cover;
+  background-color: black; }
+
+.banner_img_desp {
+  position: absolute;
+  bottom: 62px;
+  color: white;
+  font-weight: bold;
+  width: 25%;
+  margin-left: 63px; }
+
+.banner_title, #blue, #purple, #red {
+  width: 78px;
+  height: 20px;
+  /* display: inline-block; */
+  padding: 3px;
+  color: white;
+  border-radius: 2px; }
+
+#blue {
+  background-color: #3b59a1; }
+
+#purple {
+  background-color: #8a3ab9; }
+
+#red {
+  background-color: #dd4c39; }
+
+.banner_views {
+  margin-left: 12px; }
+
+.banner_caption {
+  font-size: 18px;
+  margin: 10px 0px; }
+
+span {
+  font-size: 12px; }
+
+.componentHeader {
+  border-bottom: 2px solid;
+  display: flex;
+  justify-content: space-between;
+  width: 67%;
+  margin-bottom: 10px; }
+
+.component_links {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 45%;
+  font-size: 12px;
+  font-weight: bold; }
+  .component_links .switched {
+    color: #14ca82; }
+
+.component_title {
+  display: inline-block;
+  color: #8a3ab9;
+  font-size: 18px; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif; }
+
+.wrapper {
+  max-width: 80%;
+  margin: auto;
+  position: relative; }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+a, Link {
+  text-decoration: none;
+  color: #767676;
+  font-weight: bold; }
+  a:hover, Link:hover {
+    color: #fff;
+    transition: ease 1s;
+    text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,25 @@
+.componentHeader {
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: space-between;
+    width: 67%;
+    margin-bottom: 10px;
+}
+
+.component_links {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 45%;
+    font-size: 12px;
+    font-weight: bold;
+
+    .switched {
+        color: #14ca82;
+    }
+}
+
+.component_title {
+    display: inline-block;
+    color: rgba(138, 58, 185, 255);
+    font-size: 18px;
+}
